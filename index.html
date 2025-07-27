@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3D Easy – Você imagina, a gente imprime</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0e0e0e;
+      color: #ffffff;
+    }
+    header {
+      background-color: #1e1e1e;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      color: #ffffff;
+    }
+    header p {
+      margin: 5px 0;
+      font-size: 1.2em;
+      color: #9e9e9e;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin: 10px 0;
+    }
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    .cta-button {
+      background-color: #7a32ff;
+      color: white;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 10px;
+      font-size: 1.2em;
+      cursor: pointer;
+      display: block;
+      margin: 30px auto;
+    }
+    footer {
+      background-color: #1e1e1e;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>3D Easy</h1>
+    <p>Você imagina, a gente imprime.</p>
+    <nav>
+      <a href="#como-funciona">Como Funciona</a>
+      <a href="#exemplos">Exemplos</a>
+      <a href="#crie">Criar o Seu</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section id="como-funciona">
+    <h2>Como Funciona</h2>
+    <p>1. Você descreve sua ideia geek (ex: "Um suporte de celular do Goku meditando")</p>
+    <p>2. A IA gera uma imagem conceitual para você ver</p>
+    <p>3. Você aprova e escolhe cor e tamanho</p>
+    <p>4. A gente imprime e envia para você!</p>
+  </section>
+
+  <section id="exemplos">
+    <h2>Exemplos Criados</h2>
+    <ul>
+      <li>Suporte de headset do Iron Man</li>
+      <li>Luminária estilo Pokébola</li>
+      <li>Nome 3D com letra do Zelda</li>
+    </ul>
+  </section>
+
+  <section id="crie">
+    <h2>Crie o Seu</h2>
+    <p>Preencha o formulário abaixo com sua ideia!</p>
+    <form action="https://formsubmit.co/seuemail@exemplo.com" method="POST">
+      <label for="descricao">Descreva sua ideia geek:</label><br>
+      <textarea id="descricao" name="descricao" rows="4" cols="50" required></textarea><br><br>
+      <label for="tamanho">Tamanho:</label>
+      <select name="tamanho" id="tamanho">
+        <option value="pequeno">Pequeno</option>
+        <option value="medio">Médio</option>
+        <option value="grande">Grande</option>
+      </select><br><br>
+      <label for="cor">Cor desejada:</label>
+      <input type="text" id="cor" name="cor" required><br><br>
+      <input type="submit" class="cta-button" value="Enviar Pedido">
+    </form>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>WhatsApp: (XX) XXXXX-XXXX</p>
+    <p>Email: contato@3deasy.com</p>
+    <p>Instagram: @3deasy.oficial</p>
+  </section>
+
+  <footer>
+    © 2025 3D Easy. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
